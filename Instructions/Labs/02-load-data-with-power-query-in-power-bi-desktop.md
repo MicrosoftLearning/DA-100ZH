@@ -48,59 +48,59 @@
 
 *重要说明：如果你从上一个实验室继续操作（并且已成功完成该实验室），则无需完成此任务；而是继续执行下一个任务。*
 
-12. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
+1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
 	![图片 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-13. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
 	![图片 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
 
-14. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-15. 选择 **“打开报表”**。
+4. 选择 **“打开报表”**。
 
 	![图片 10](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image3.png)
 
-16. 单击 **“浏览报表”**。
+5. 单击 **“浏览报表”**。
 
 	![图片 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-17. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter”文件夹**。
+6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter”文件夹**。
 
-18. 选择 **“Sales Analysis”** 文件。
+7. 选择 **“Sales Analysis”** 文件。
 
-19. 单击 **“打开”**。
+8. 单击 **“打开”**。
 
 	![图片 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
-20. 关闭可能打开的所有信息窗口。
+9. 关闭可能打开的所有信息窗口。
 
-21. 请注意功能区下方的黄色警告消息。
+10. 请注意功能区下方的黄色警告消息。
 
 	*该消息会提醒你尚未应用查询来加载为模型表。你稍后将在本实验室中应用查询。*
 
-22. 要关闭警告消息，请在黄色警告消息的左侧单击 **“X”**。
+11. 要关闭警告消息，请在黄色警告消息的左侧单击 **“X”**。
 
 	![图片 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
 
-23. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
+12. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
 
-24. 选择 **“另存为”**。
+13. 选择 **“另存为”**。
 
 	![图片 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
 
-25. 如果提示应用更改，请单击 **“稍后应用”**。
+14. 如果提示应用更改，请单击 **“稍后应用”**。
 
 	![图片 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-26. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+15. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-27. 单击 **“保存”**。
+16. 单击 **“保存”**。
 
 	![图片 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
 
-28. 若要打开 **“Power Query 编辑器”** 窗口，请在 **“主页”** 功能区选项卡上的 **“查询”** 组内，单击 **“转换数据”** 图标。
+17. 若要打开 **“Power Query 编辑器”** 窗口，请在 **“主页”** 功能区选项卡上的 **“查询”** 组内，单击 **“转换数据”** 图标。
 
 	![图片 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
@@ -226,7 +226,7 @@
 
 2. 在 **“查询设置”** 窗格中，将查询重命名为 **“SalespersonRegion”**。
 
-3. 要删除最后两列，请先选择 **“DimEmployee”**列标题。
+3. 要删除最后两列，请先选择 **“DimEmployee”** 列标题。
 
 4. 在按下 **Ctrl** 键的同时，选择 **“DimSalesTerritory”** 列标题。
 

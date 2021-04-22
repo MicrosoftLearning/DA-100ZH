@@ -52,47 +52,47 @@
 
 *重要说明：如果你从上一个实验室继续操作（并且已成功完成该实验室），则无需完成此任务；而是继续执行下一个任务。*
 
-12. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
+1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
 	![图片 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
-13. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
 	![图片 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
 
-14. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-15. 选择 **“打开报表”**。
+4. 选择 **“打开报表”**。
 
 	![图片 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
 
-16. 单击 **“浏览报表”**。
+5. 单击 **“浏览报表”**。
 
 	![图片 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-17. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter”文件夹**。
+6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter”文件夹**。
 
-18. 选择 **“Sales Analysis”** 文件。
+7. 选择 **“Sales Analysis”** 文件。
 
-19. 单击 **“打开”**。
+8. 单击 **“打开”**。
 
 	![图片 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
 
-20. 关闭可能打开的所有信息窗口。
+9. 关闭可能打开的所有信息窗口。
 
-21. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
+10. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
 
-22. 选择 **“另存为”**。
+11. 选择 **“另存为”**。
 
 	![图片 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
 
-23. 如果系统提示应用更改，请单击 **“应用”**。
+12. 如果系统提示应用更改，请单击 **“应用”**。
 
 	![图片 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
-24. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+13. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-25. 单击 **“保存”**。
+14. 单击 **“保存”**。
 
 	![图片 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
@@ -146,7 +146,7 @@
 
 	![图片 333](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image16.png)
 
-12. 在第二个下拉列表中（在 **“Product”**表网格下方），选择 **“Sales”** 表。
+12. 在第二个下拉列表中（在 **“Product”** 表网格下方），选择 **“Sales”** 表。
 
 	![图片 334](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image17.png)
 
@@ -184,7 +184,7 @@
 
 	![图片 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
-21. 在下图中，注意你可以解释由 **1** 和 **指标表示的**基数。
+21. 在下图中，注意你可以解释由 **1** 和 **“*”** 指标表示的基数。
 
 	*筛选方向由箭头表示。实线表示活动关系，虚线表示不活动关系。*
 
@@ -230,9 +230,9 @@
 
 	![图片 344](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image25.png)
 
-4. 要将第二个级别添加到层次结构，请在 **“属性”** 窗格中的 **“层次结构”**下拉列表中，选择 **“Subcategory”** （可能需要在窗格内部向下滚动）。
+4. 要将第二个级别添加到层次结构，请在 **“属性”** 窗格中的 **“层次结构”** 下拉列表中，选择 **“Subcategory”** （可能需要在窗格内部向下滚动）。
 
-5. 要向层次结构添加第三个级别，请在 **“层次结构”**下拉列表中选择 **“Product”**。
+5. 要向层次结构添加第三个级别，请在 **“层次结构”** 下拉列表中选择 **“Product”**。
 
 6. 要完成层次结构设计，请单击 **“应用级别更改”**。
 
@@ -424,7 +424,7 @@
 
 	![图片 359](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image40.png)
 
-	*“Targets | TargetMonth”** 字段提供类似的层次结构。这些层次结构不是由你创建。它们是自动创建的。但是，有一个问题。Adventure Works 财政年度始于每年的 7 月 1 日。但是，在这些自动创建的日期层次结构中，日期层次结构年份始于每年的 1 月 1 日。*
+	***“Targets | TargetMonth”** 字段提供类似的层次结构。这些层次结构不是由你创建。它们是自动创建的。但是，有一个问题。Adventure Works 财政年度始于每年的 7 月 1 日。但是，在这些自动创建的日期层次结构中，日期层次结构年份始于每年的 1 月 1 日。*
 
 	*现将关闭此自动行为。在 **“在 Power BI Desktop 中创建 DAX 计算，第 1 部分”** 实验室中，你将使用 DAX 创建日期表，并对其进行配置以定义 Adventure Works 的日历。*
 

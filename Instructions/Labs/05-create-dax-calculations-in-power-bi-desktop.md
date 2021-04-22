@@ -42,7 +42,7 @@
 
 ## **练习 1：创建计算表**
 
-在此练习中，你将创建两个计算表。首先是 **“Salesperson”** 表，使其与 **“Sales”** 表直接关联。第二个是 **“Date”**表。
+在此练习中，你将创建两个计算表。首先是 **“Salesperson”** 表，使其与 **“Sales”** 表直接关联。第二个是 **“Date”** 表。
 
 ### **任务 1：入门**
 
@@ -50,47 +50,47 @@
 
 *重要说明：如果你从上一个实验室继续操作（并且已成功完成该实验室），则无需完成此任务；而是继续执行下一个任务。*
 
-12. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
+1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
 	![图片 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
 
-13. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
 	![图片 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-14. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-15. 选择 **“打开报表”**。
+4. 选择 **“打开报表”**。
 
 	![图片 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
 
-16. 单击 **“浏览报表”**。
+5. 单击 **“浏览报表”**。
 
 	![图片 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-17. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Starter”** 文件夹。
+6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Starter”** 文件夹。
 
-18. 选择 **“Sales Analysis”** 文件。
+7. 选择 **“Sales Analysis”** 文件。
 
-19. 单击 **“打开”**。
+8. 单击 **“打开”**。
 
 	![图片 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
 
-20. 关闭可能打开的所有信息窗口。
+9. 关闭可能打开的所有信息窗口。
 
-21. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+10. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-22. 选择 **“另存为”**。
+11. 选择 **“另存为”**。
 
 	![图片 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
 
-23. 如果系统提示应用更改，请单击 **“应用”**。
+12. 如果系统提示应用更改，请单击 **“应用”**。
 
 	![图片 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-24. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+13. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-25. 单击 **“保存”**。
+14. 单击 **“保存”**。
 
 	![图片 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image8.png)
 
@@ -414,7 +414,7 @@
 
 	- Order Lines
 
-	***“Orders”** 度量值中使用的 DISTINCTCOUNT() 函数只会对订单进行一次计数（忽略重复项）。用于**订单行**度量值的 COUNTROWS() 函数对表进行操作。*
+	***“Orders”** 度量值中使用的 DISTINCTCOUNT() 函数只会对订单进行一次计数（忽略重复项）。用于 **订单行** 度量值的 COUNTROWS() 函数对表进行操作。*
 
 	*在这种情况下，订单数量是通过对 **“SalesOrderNumber”** 列的不同值进行计数得出的，而订单行数其实就是表行数（每行为一个订单行）。*
 
@@ -430,7 +430,7 @@
 
 12. 隐藏 **“Unit Price”** 列。
 
-	* **Unit Price** 列现在对所有报表作者不可用。他们必须使用你添加到模型中的定价度量值。这种设计方法可确保报表作者不会以不当的方式对价格进行聚合（例如，通过对价格进行求和）。*
+	* ***Unit Price** 列现在对所有报表作者不可用。他们必须使用你添加到模型中的定价度量值。这种设计方法可确保报表作者不会以不当的方式对价格进行聚合（例如，通过对价格进行求和）。*
 
 13. 同时选择 **“Order Lines”** 和 **“Orders”** 度量值并配置以下要求：
 

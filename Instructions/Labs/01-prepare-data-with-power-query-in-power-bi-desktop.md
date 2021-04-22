@@ -52,27 +52,27 @@
 
 在此任务中，你将首先保存 Power BI Desktop 文件。
 
-12. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
+1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
 	![图片 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
 
-13. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
 	![图片 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
 
-14. 要保存文件，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
+3. 要保存文件，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
 
-15. 选择 **“保存”**。
+4. 选择 **“保存”**。
 
 	![图片 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-16. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+5. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-17. 在里面 **“文档名”** 框，输入 **“Sales Analysis”**。
+6. 在里面 **“文档名”** 框，输入 **“Sales Analysis”**。
 
 	![图片 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-18. 单击 **“保存”**。
+7. 单击 **“保存”**。
 
 	![图片 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
@@ -325,7 +325,7 @@
 
 在此任务中，你将基于其他 CSV 文件创建其他查询。
 
-1. 使用上一个任务中的步骤基于 **“D:\DA100\Resources**\**ColorFormats.csv”** 文件创建查询。
+1. 使用上一个任务中的步骤基于 **“D:\DA100\Resources\ColorFormats.csv”** 文件创建查询。
 
 	![图片 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 

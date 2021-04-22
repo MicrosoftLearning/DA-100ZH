@@ -48,29 +48,29 @@
 
 *重要说明：如果已登录到 Power BI，请继续完成下一个任务。*
 
-12. 要打开 Microsoft Edge，请在任务栏上单击 Microsoft Edge 程序快捷方式。
+1. 要打开 Microsoft Edge，请在任务栏上单击 Microsoft Edge 程序快捷方式。
 
 	![图片 65](Linked_image_Files/07-design-report-in-power-bi-desktop_image1.png)
 
-13. 在 Microsoft Edge 浏览器窗口中，导航到 **https://powerbi.com**。
+2. 在 Microsoft Edge 浏览器窗口中，导航到 **https://powerbi.com**
 
 	*提示：还可以使用“Microsoft Edge 收藏夹”栏上的 Power BI 服务收藏夹。*
 
-14. 单击 **“登录”** （位于右上角）。
+3. 单击 **“登录”** （位于右上角）。
 
 	![图片 63](Linked_image_Files/07-design-report-in-power-bi-desktop_image2.png)
 
-15. 输入已向你提供的帐户详细信息。
+4. 输入已向你提供的帐户详细信息。
 
-16. 如果系统提示更新密码，请重新输入提供的密码，然后输入并确认新密码。
+5. 如果系统提示更新密码，请重新输入提供的密码，然后输入并确认新密码。
 
 	*重要说明：请确保记录新密码。*
 
-17. 完成登录过程。
+6. 完成登录过程。
 
-18. 如果 Microsoft Edge 提示你选择是否保持登录状态，请单击 **“是”**。
+7. 如果 Microsoft Edge 提示你选择是否保持登录状态，请单击 **“是”**。
 
-19. 让 Microsoft Edge 浏览器窗口保持打开状态。
+8. 让 Microsoft Edge 浏览器窗口保持打开状态。
 
 ### **任务 2：开始 - 打开报表**
 
@@ -284,7 +284,7 @@
 
 39. 展开 **“数据颜色”** 组，然后将 **“默认颜色”** 属性设置为合适的颜色（以补充柱形图/折线图）。
 
-40. 将 **“数据标签”** 属性设置为v“启用”**。
+40. 将 **“数据标签”** 属性设置为 **“启用”**。
 
 	![图片 2](Linked_image_Files/07-design-report-in-power-bi-desktop_image36.png)
 

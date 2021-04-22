@@ -56,7 +56,7 @@
 
     ![图片 42](Linked_image_Files/09-create-power-bi-dashboard_image2.png)
 
-2. 在 Microsoft Edge 浏览器窗口中，导航到 **https://powerbi.com**。
+2. 在 Microsoft Edge 浏览器窗口中，导航到 **https://powerbi.com**
 
     *提示：还可以使用“Microsoft Edge 收藏夹”栏上的 Power BI 服务收藏夹。*
 
@@ -114,7 +114,7 @@
 
 9. 选择 **“Sales Analysis”** 文件。
 
-10. 单击 **“打开”*。
+10. 单击 **“打开”**。
 
     ![图片 32](Linked_image_Files/09-create-power-bi-dashboard_image10.png)
 
@@ -344,7 +344,7 @@
 
 3. 当系统提示按任意键关闭时，请再次按 **Enter**。
 
-    * **AdventureWorksDW2020** 数据库现在包含 2020 年 6 月的销售订单。*
+    * ***AdventureWorksDW2020** 数据库现在包含 2020 年 6 月的销售订单。*
 
 ### **任务 2：刷新 Power BI Desktop 文件**
 

@@ -48,47 +48,47 @@
 
 *重要说明：如果你从上一个实验室继续操作（并且已成功完成该实验室），则无需完成此任务；而是继续执行下一个任务。*
 
-12. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
+1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
     ![图片 12](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image1.png)
 
-13. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
     ![图片 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
-14. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-15. 选择 **“打开报表”**。
+4. 选择 **“打开报表”**。
 
     ![图片 10](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image3.png)
 
-16. 单击 **“浏览报表”**。
+5. 单击 **“浏览报表”**。
 
     ![图片 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-17. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop-advanced\Starter”** 文件夹。
+6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop-advanced\Starter”** 文件夹。
 
-18. 选择 **“Sales Analysis”** 文件。
+7. 选择 **“Sales Analysis”** 文件。
 
-19. 单击 **“打开”**。
+8. 单击 **“打开”**。
 
     ![图片 8](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image5.png)
 
-20. 关闭可能打开的所有信息窗口。
+9. 关闭可能打开的所有信息窗口。
 
-21. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+10. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-22. 选择 **“另存为”**。
+11. 选择 **“另存为”**。
 
     ![图片 7](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image6.png)
 
-23. 如果系统提示应用更改，请单击 **“应用”**。
+12. 如果系统提示应用更改，请单击 **“应用”**。
 
     ![图片 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
 
-24. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+13. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-25. 单击 **“保存”**。
+14. 单击 **“保存”**。
 
     ![图片 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image8.png)
 
@@ -379,7 +379,7 @@
     ```
 
 
-    * **“Sales YoY Growth”** 度量值公式声明了一个变量。变量可用于简化公式逻辑，当需要在公式中多次对表达式求值时（同比增长逻辑就是这种情况），变量将更有效。变量由唯一的名称声明，然后必须在 **RETURN** 关键字之后输出度量值表达式。*
+    * ***“Sales YoY Growth”** 度量值公式声明了一个变量。变量可用于简化公式逻辑，当需要在公式中多次对表达式求值时（同比增长逻辑就是这种情况），变量将更有效。变量由唯一的名称声明，然后必须在 **RETURN** 关键字之后输出度量值表达式。*
 
     *向 **SalesPriorYear** 变量分配一个表达式，用于计算修改后的上下文中 **“Sales”** 列的总和，该上下文使用 PARALLELPERIOD() 函数将筛选上下文中的每个日期向后移 12 个月。*
 

@@ -48,47 +48,47 @@
 
 *重要说明：如果你从上一个实验室继续操作（并且已成功完成该实验室），则无需完成此任务；而是继续执行下一个任务。*
 
-12. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
+1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
 	![图片 8](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image1.png)
 
-13. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
 	![图片 7](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image2.png)
 
-14. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-15. 选择 **“打开报表”**。
+4. 选择 **“打开报表”**。
 
 	![图片 6](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image3.png)
 
-16. 单击 **“浏览报表”**。
+5. 单击 **“浏览报表”**。
 
 	![图片 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-17. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\configure-data-model-in-power-bi-desktop-advanced\Starter”** 文件夹。
+6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\configure-data-model-in-power-bi-desktop-advanced\Starter”** 文件夹。
 
-18. 选择 **“Sales Analysis”** 文件。
+7. 选择 **“Sales Analysis”** 文件。
 
-19. 单击 **“打开”**。
+8. 单击 **“打开”**。
 
 	![图片 4](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image5.png)
 
-20. 关闭可能打开的所有信息窗口。
+9. 关闭可能打开的所有信息窗口。
 
-21. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+10. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-22. 选择 **“另存为”**。
+11. 选择 **“另存为”**。
 
 	![图片 3](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image6.png)
 
-23. 如果系统提示应用更改，请单击 **“应用”**。
+12. 如果系统提示应用更改，请单击 **“应用”**。
 
 	![图片 15](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image7.png)
 
-24. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+13. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-25. 单击 **“保存”**。
+14. 单击 **“保存”**。
 
 	![图片 2](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image8.png)
 
@@ -102,7 +102,7 @@
 
 	- Sales | Sales
 
-	*实验室将使用速记表示法来引用字段。如下所示： **Salesperson | Salesperson** 在此示例中， **“Salesperson”** 是表名， **“Salesperson”** 是字段名。
+	*实验室将使用速记表示法来引用字段。如下所示： **Salesperson | Salesperson** 在此示例中， **“Salesperson”** 是表名， **“Salesperson”** 是字段名。*
 
 	![图片 1](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image9.png)
 
