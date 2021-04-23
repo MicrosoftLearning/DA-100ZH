@@ -36,9 +36,9 @@
 
 9. **创建 Power BI 仪表板**
 
-10. 在 Power BI Desktop 中执行数据分析
+10. 创建 Power BI 分页报表
 
-11. 创建 Power BI 分页报表
+11. 在 Power BI Desktop 中执行数据分析
 
 ## **练习 1：创建仪表板**
 
@@ -110,7 +110,7 @@
 
     ![图片 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\create-power-bi-dashboard\Starter”** 文件夹。
+8. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\09-create-power-bi-dashboard\Starter”** 文件夹。
 
 9. 选择 **“Sales Analysis”** 文件。
 
@@ -154,7 +154,7 @@
 
     ![图片 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\design-report-in-power-bi-desktop-enhanced\Solution”** 文件夹。
+4. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution”** 文件夹。
 
 5. 选择 **“Sales Analysis.pbix”** 文件，然后单击 **“打开”**。
 
@@ -208,7 +208,7 @@
 
 13. 从“问答”框中删除所有文本。
 
-14. 在“问答”框中，输入以下内容： **本年迄今为止的销售额**
+14. 在“问答”框中，输入以下内容： **销售额 YTD**
 
     ![图片 11](Linked_image_Files/09-create-power-bi-dashboard_image24.png)
 
@@ -252,7 +252,7 @@
 
     ![图片 48](Linked_image_Files/09-create-power-bi-dashboard_image33.png)
 
-24. 在 **“添加图像磁贴”** 窗格的 **“URL”** 框中，输入在 **“D:\DA100\Resources\AdventureWorksLogo_DataURL.txt”** 文件中找到的完整 URL。
+24. 在 **“添加图像磁贴”** 窗格的 **“URL”** 框中，输入在 **“D:\DA100\Resources\AdventureWorksLogo_DataURL.txt”** 文件中找到的完整 **URL**。
 
     *可通过使用图像 URL 来嵌入图像，也可以使用可嵌入内联内容的数据 URL。*
 
@@ -264,7 +264,7 @@
 
     *磁贴大小限制为矩形。只能将大小调整为矩形的倍数。*
 
-27. 整理磁贴，让徽标显示在左上角， **“本年迄今为止的销售额”** 磁贴显示在徽标下方， **“销售额、利润率”** 磁贴显示在右侧。
+27. 整理磁贴，让徽标显示在左上角，**“本年迄今为止的销售额”** 磁贴显示在徽标下方，**“销售额、利润率”** 磁贴显示在右侧。
 
     ![图片 52](Linked_image_Files/09-create-power-bi-dashboard_image35.png)
 
@@ -272,7 +272,7 @@
 
 在此任务中，你将编辑两个磁贴的详细信息。
 
-1. 将光标悬停在 **“本年迄今为止的销售额”** 磁贴上，单击该磁贴右上角的省略号，然后选择 **“编辑详细信息”**。
+1. 将光标悬停在 **“Sales YTD”** 磁贴上，然后在该磁贴的右上角单击省略号，然后选择 **“编辑详细信息”**。
 
     ![图片 50](Linked_image_Files/09-create-power-bi-dashboard_image36.png)
 
@@ -284,13 +284,13 @@
 
     ![图片 20](Linked_image_Files/09-create-power-bi-dashboard_image38.png)
 
-4. 请注意，**“本年迄今为止的销售额”** 磁贴将显示副标题。
+4. 请注意， **“本年迄今为止的销售额”** 磁贴将显示副标题。
 
     ![图片 21](Linked_image_Files/09-create-power-bi-dashboard_image39.png)
 
 5. 编辑 **“销售额、利润率”** 磁贴的磁贴详细信息。
 
-6. 在**磁贴详细信息**窗格的 **“功能”** 部分，选中 **“显示上次刷新时间”**。
+6. 在**磁贴详细信息** 窗格的 **“功能”** 部分，选中 **“显示上次刷新时间”**。
 
     ![图片 22](Linked_image_Files/09-create-power-bi-dashboard_image40.png)
 
@@ -322,13 +322,13 @@
 
     *此配置可确保每当磁贴更新为大于 3500 万的值时，你都会收到通知。*
 
-4. 在窗格底部，单击 **“保存并关闭”** 。
+4. 在窗格底部，单击 **“保存并关闭”**。
 
     ![图片 27](Linked_image_Files/09-create-power-bi-dashboard_image45.png)
 
     *你将在下一练习中刷新数据集。通常，这应该借助计划刷新来完成，在此情况下，Power BI 将使用网关连接到 SQL Server 数据库。但是，由于课堂条件有限，因此没有使用网关。因此，你需要打开 Power BI Desktop、执行手动数据刷新，然后将文件上传到工作区。*
 
-## **练习 2：刷新数据集**
+## **练习2：刷新数据集**
 
 在此练习中，你首先需要将 2020 年 6 月的销售订单数据加载到 **AdventureWorksDW2020** 数据库。然后打开 Power BI Desktop 文件，执行数据刷新，再将该文件上传到工作区。
 
@@ -388,7 +388,7 @@
 
     *还应触发了 **“本年迄今为止的销售额”** 磁贴上的警报。片刻之后，警报应通知你销售额现在已超出配置的阈值。*
 
-4. 请注意， **“本年迄今为止的销售额”** 磁贴已更新为 **“3700 万美元”**。
+4. 请注意， **“Sales YTD”** 磁贴已更新为 **“$37M”**。
 
 5. 验证 **“Sales YTD”** 磁贴是否显示警报通知图标。
 

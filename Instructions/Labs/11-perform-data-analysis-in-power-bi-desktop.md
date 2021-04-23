@@ -16,7 +16,7 @@
 
 - 使用关键影响视觉对象
 
-### 实验室**故事**
+### **实验室故事**
 
 本实验室是一个实验室系列中的诸多实验室之一，设计为从数据准备到作为报表和仪表板发布的完整故事。可以按任意顺序完成这些实验室。但是，如果你打算完成多个实验室，对于前 10 个实验室，建议你按以下顺序完成：
 
@@ -38,9 +38,9 @@
 
 9. 创建 Power BI 仪表板
 
-10. **在 Power BI Desktop 中执行数据分析**
+10. 创建 Power BI 分页报表
 
-11. 创建 Power BI 分页报表
+11. **在 Power BI Desktop 中执行数据分析**
 
 ## **创建报表**
 
@@ -54,31 +54,31 @@
 
 1. 要打开 Microsoft Edge，请在任务栏上单击 Microsoft Edge 程序快捷方式。
 
-	![图片 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
+ 	![图片 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-2. 在 Microsoft Edge 浏览器窗口中，导航到 **https://powerbi.com**
+1. 在 Microsoft Edge 浏览器窗口中，导航到 **https://powerbi.com**
 
-	*提示：还可以使用“Microsoft Edge 收藏夹”栏上的 Power BI 服务收藏夹。*
+ 	*提示：还可以使用“Microsoft Edge 收藏夹”栏上的 Power BI 服务收藏夹。*
 
-3. 单击 **“登录”** （位于右上角）。
+1. 单击 **“登录”** （位于右上角）。
 
-	![图片 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
+ 	![图片 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
 
-4. 输入已向你提供的帐户详细信息。
+1. 输入已向你提供的帐户详细信息。
 
-5. 如果系统提示更新密码，请重新输入提供的密码，然后输入并确认新密码。
+1. 如果系统提示更新密码，请重新输入提供的密码，然后输入并确认新密码。
 
-	*重要说明：请确保记录新密码。*
+ 	*重要说明：请确保记录新密码。*
 
-6. 完成登录过程。
+1. 完成登录过程。
 
-7. 如果 Microsoft Edge 提示你选择是否保持登录状态，请单击 **“是”**。
+1. 如果 Microsoft Edge 提示你选择是否保持登录状态，请单击 **“是”**。
 
-8. 在 Microsoft Edge 浏览器窗口，在 Power BI 服务的 **“导航”** 窗格中展开 **“我的工作区”**。
+1. 在 Microsoft Edge 浏览器窗口，在 Power BI 服务的 **“导航”** 窗格中展开 **“我的工作区”**。
 
-	![图片 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
+ 	![图片 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
 
-9. 让 Microsoft Edge 浏览器窗口保持打开状态。
+1. 让 Microsoft Edge 浏览器窗口保持打开状态。
 
 ### **任务 2：开始 - 创建数据集**
 
@@ -90,7 +90,7 @@
 
 	![图片 8](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image4.png)
 
-2. 在“文件”磁贴中，单击 **“获取”**。
+2. 在 **“文件”** 磁贴中，单击 **“获取”**。
 
 	![图片 10](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image5.png)
 
@@ -98,9 +98,9 @@
 
 	![图片 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\create-power-bi-dashboard\Solution”** 文件夹。
+4. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\11-create-power-bi-dashboard\Solution”** 文件夹。
 
-5. 选择“Sales Analysis.pbix”文件，然后单击 **“打开”**。
+5. 选择 **“Sales Analysis.pbix”** 文件，然后单击 **“打开”**。
 
 6. 如果系统提示替换数据集，请单击 **“替换”**。
 
@@ -136,13 +136,13 @@
 
 	![图片 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
 
-9. 要创建与 **“销售额分析”** 数据集的实时连接，请在 **“开始”** 功能区选项卡的“数据”组中，单击 **“Power BI 数据集”**。
+9. 要创建与 **“销售额分析”** 数据集的实时连接，请在 **“开始”** 功能区选项卡的 **“数据”** 组中，单击 **“Power BI 数据集”**。
 
 	![图片 15](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image12.png)
 
 10. 在 **“选择一个数据集以创建报表”** 窗口中，选择 **“销售额分析”** 数据集。
 
-11. 单击 **“创建”**。
+11. 单击 **“创建”** 。
 
 	![图片 17](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image13.png)
 
@@ -158,7 +158,7 @@
 
 在此任务中，你将创建可以制作成动画的散点图。
 
-1. 将 **“第 1 页”** 重命名为 **“散点图”**。
+1. 将第 **1 页**重命名为 **“散点图”**。
 
 	![图片 67](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image14.png)
 
@@ -168,7 +168,7 @@
 
 	![图片 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
 
-3. 将以下字段添加到视觉对象井中：
+3. 将以下字段添加到视觉对象井/区域中：
 
 	实验室将使用速记表示法来引用字段。如下所示： **Reseller | Business Type**。在此示例中， **“Reseller”** 是表名， **“Business Type”** 是字段名。
 
@@ -184,9 +184,9 @@
 
 	![图片 39](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image17.png)
 
-	*在“播放轴”井中添加字段后，可将图表制作成动画。*
+	*将字段添加到 **“播放轴”** 井/区域时，可以对图表进行动画处理。*
 
-4. 在 **“筛选器”** 窗格中，将 **“Product | Category”** 字段添加到 **“此页面上的筛选器”** 井中。
+4. 在 **“筛选器”** 窗格中，将 **“Product | Category”** 字段拖动到 **“此页面上的筛选器”** 井/区域中。
 
 5. 在筛选器卡片中，按 **“自行车”** 进行筛选。
 
@@ -229,9 +229,8 @@
 	![图片 74](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image22.png)
 
   
-‎ 
 
-3. 将以下字段添加到视觉对象井中：
+3. 将以下字段添加到视觉对象井/区域中：
 
 	- 轴： **Date | Date**
 
@@ -239,7 +238,7 @@
 
 	![图片 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
-4. 在 **“筛选器”** 窗格中，将 **“Date | Year”** 字段添加到 **“此页面上的筛选器”** 井中。
+4. 在 **“筛选器”** 窗格中，将 **“Date | Year”** 字段拖动到 **“此页面上的筛选器”** 井/区域中。
 
 5. 在筛选器卡片中，按两个年份进行筛选： **“FY2019”** 和 **“FY2020”**。
 
@@ -249,7 +248,7 @@
 
   
 
-6. 然后将 **“Product | Category”** 字段添加到 **“此页面上的筛选器”** 井中，然后按 **“自行车”** 进行筛选。
+6. 然后将 **“Product | Category”** 字段添加到 **“此页面上的筛选器”** 井/区域中，然后按 **“自行车”** 进行筛选。
 
 	![图片 48](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image25.png)
 
@@ -285,7 +284,7 @@
 
 	*当你知道周期的长度（本例中为每年）时，应输入季节性点。有时可能是每周一次 (7) 或每月一次 (30)。*
 
-13. 在**筛选器**窗格，仅依据 **“Clothing”** 筛选，请注意，它会产生不同的结果。
+13. 在**筛选器** 窗格，仅依据 **“Clothing”** 筛选，请注意，它会产生不同的结果。
 
 14. 保存 Power BI Desktop 文件。
 
@@ -311,7 +310,7 @@
 
 	![图片 73](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image32.png)
 
-4. 将以下字段添加到视觉对象井中：
+4. 将以下字段添加到视觉对象井/区域中：
 
 	- 分析： **Sales | Profit Margin**
 
@@ -387,7 +386,7 @@
 
 	![图片 3](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image42.png)
 
-5. 在视觉对象的左上方，请注意 **“关键影响因素”** 已获得焦点，并设置了特定影响因素以说明哪个地方的利润率会增加。
+5. 在视觉对象的左上方，请注意 **“关键影响因素”** 已获得焦点，并设置了特定影响因素以说明哪些影响因素利润率会增加。
 
 	![图片 76](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image43.png)
 

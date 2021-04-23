@@ -34,9 +34,9 @@
 
 9. 创建 Power BI 仪表板
 
-10. 在 Power BI Desktop 中执行数据分析
+10. 创建 Power BI 分页报表
 
-11. 创建 Power BI 分页报表
+11. 在 Power BI Desktop 中执行数据分析
 
 ## **练习 1：使用筛选器上下文**
 
@@ -52,43 +52,43 @@
 
     ![图片 12](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image1.png)
 
-2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+1. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
     ![图片 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
-3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+1. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-4. 选择 **“打开报表”**。
+1. 选择 **“打开报表”**。
 
     ![图片 10](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image3.png)
 
-5. 单击 **“浏览报表”**。
+1. 单击 **“浏览报表”**。
 
     ![图片 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop-advanced\Starter”** 文件夹。
+1. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter”** 文件夹。
 
-7. 选择 **“Sales Analysis”** 文件。
+1. 选择 **“Sales Analysis”** 文件。
 
-8. 单击 **“打开”**。
+1. 单击 **“打开”**。
 
     ![图片 8](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image5.png)
 
-9. 关闭可能打开的所有信息窗口。
+1. 关闭可能打开的所有信息窗口。
 
-10. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+1. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-11. 选择 **“另存为”**。
+1. 选择 **“另存为”**。
 
     ![图片 7](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image6.png)
 
-12. 如果系统提示应用更改，请单击 **“应用”**。
+1. 如果系统提示应用更改，请单击 **“应用”**。
 
     ![图片 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
 
-13. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+1. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-14. 单击 **“保存”**。
+1. 单击 **“保存”**。
 
     ![图片 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image8.png)
 
@@ -134,7 +134,7 @@
 
     ![图片 50](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image15.png)
 
-    *在 Adventure Works 中，销售区域分为组、国家/地区和区域。除美国之外的其他所有国家/地区都只有一个区域（以国家/地区命名）。由于美国的销售区域非常大，该国分为五个销售区域。*
+    *在 Adventure Works 中，销售区域分为组、国家/地区和区域。除美国外，所有国家/地区都只有一个区域以该国家/地区命名。由于美国的销售区域非常大，该国分为五个销售区域。*
 
     *在此练习中，你将创建几个度量值，然后将它们添加到矩阵视觉对象中进行测试。*
 
@@ -144,7 +144,7 @@
 
 1. 基于以下表达式向 **“Sales”** 表添加一个度量值：
 
-    *为了方便起见，可以从 **D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 文件复制本实验室中的所有 DAX 定义。*
+    *为了方便起见，可以从 **D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 文件复制本实验室中的所有 DAX 定义。*
 
 
     **DAX**
@@ -317,7 +317,7 @@
 
     *添加到 **Sales** 表中的度量值修改了筛选上下文，以实现分层导航。注意，要得到小计的计算，其模式需要从筛选上下文中删除一些列，而要得到总计，必须删除所有列。*
 
-## **练习 2：使用时间智能**
+## **练习2：使用时间智能**
 
 在此练习中，你将创建年初至今 (YTD) 销售额度量值和年度同比 (YoY) 销售额增长率度量值。
 

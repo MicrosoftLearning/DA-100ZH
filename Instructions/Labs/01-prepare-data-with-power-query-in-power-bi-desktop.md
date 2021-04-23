@@ -40,9 +40,9 @@
 
 9. 创建 Power BI 仪表板
 
-10. 在 Power BI Desktop 中执行数据分析
+10. 创建 Power BI 分页报表
 
-11. 创建 Power BI 分页报表
+11. 在 Power BI Desktop 中执行数据分析
 
 ## **练习 1：准备数据**
 
@@ -54,29 +54,29 @@
 
 1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
-	![图片 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
+ 	![图片 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
 
-2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+1. 要关闭开始窗口，请单击窗口右上角的 **“X”**。
 
-	![图片 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
+ 	![图片 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
 
-3. 要保存文件，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
+1. 要保存文件，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
 
-4. 选择 **“保存”**。
+1. 选择 **“保存”**。
 
-	![图片 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
+ 	![图片 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-5. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+1. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-6. 在里面 **“文档名”** 框，输入 **“Sales Analysis”**。
+1. 在里面 **“文档名”** 框，输入 **“Sales Analysis”**。
 
-	![图片 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
+ 	![图片 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-7. 单击 **“保存”**。
+1. 单击 **“保存”**。
 
 	![图片 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
-	提示：还可以通过单击右上角的 **“保存”** 图标来保存文件。
+	提示：还可以通过单击左上角的 **“保存”** 图标来保存文件。
 
 	![图片 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image6.png)
 
@@ -86,27 +86,27 @@
 
 1. 在 Power BI Desktop 中，单击 **“文件”** 功能区选项卡以打开 backstage 视图。
 
-2. 选择左侧的 **“选项和设置”** ，然后选择 **“选项”**。
+1. 选择左侧的 **“选项和设置”**，然后选择 **“选项”**。
 
-	![图片 1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
+ 	![图片1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
 
-3. 在 **“选项”** 窗口左侧的 **“当前文件”** 组中选择 **“数据加载”**。
+1. 在 **“选项”** 窗口左侧的 **“当前文件”** 组中选择 **“数据加载”**。
 
-	![图片 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
+    ![图片 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
 
-通过当前文件的 **“数据加载”** 设置，可以设置选项来确定建模时的默认行为。
+    通过当前文件的 **“数据加载”** 设置，可以设置选项来确定建模时的默认行为。
 
-4. 在 **“关系”** 组中，取消选中已选中的两个选项。
+1. 在 **“关系”** 组中，取消选中已选中的两个选项。
 
 	![图片 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
-虽然这两个选项在开发数据模型时可能会有所帮助，但它们处于已禁用状态，以支持实验室体验。在 **“在 Power BI Desktop 中加载数据”** 实验室中创建关系时，你将了解为什么要添加每个关系。
+    虽然这两个选项在开发数据模型时可能会有所帮助，但它们处于已禁用状态，以支持实验室体验。在 **“在 Power BI Desktop 中加载数据”** 实验室中创建关系时，你将了解为什么要添加每个关系。
 
-5. 单击 **“确定”**。
+1. 单击 **“确定”**。
 
-	![图片 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
+    ![图片 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
 
-6. 保存 Power BI Desktop 文件。
+1. 保存 Power BI Desktop 文件。
 
 ### **任务 3：从 SQL Server 获取数据**
 
@@ -142,7 +142,7 @@
 
 7. 在 **“导航器”** 窗口左侧，展开 **“AdventureWorksDW2020”** 数据库。
 
-	**AdventureWorksDW2020** 数据库基于 **AdventureWorksDW201** 示例数据库。已对其进行修改，以支持课程实验室的学习目标。
+	**AdventureWorksDW2020** 数据库基于 **AdventureWorksDW2017** 示例数据库。已对其进行修改，以支持课程实验室的学习目标。
 
 	![图片 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image17.png)
 
@@ -238,7 +238,7 @@
 
 14. 注意 **“DimProductSubcategory”** 列。
 
-	在“在 Power BI Desktop 中加载数据”实验室中向此查询添加转换时，将使用 **“DimProductSubcategory”列来联接表**。
+	在 **“在 Power BI Desktop 中加载数据”** 实验室中向此查询添加转换时，将使用 **“DimProductSubcategory”** 列来联接表。
 
 15. 在 **“查询”** 窗格中，选择 **“DimReseller”** 查询。
 
@@ -256,13 +256,13 @@
 
 19. 在“数据预览”窗格中查看列统计信息和值分布情况。
 
-20. 请注意数据质量问题：仓库有两个标签（ **“Warehouse”** 以及拼写错误的 **“Ware House”**）。
+20. 请注意数据质量问题：仓库有两个标签（**“Warehouse”** 以及拼写错误的 **“Ware House”**）。
 
 	![图片 51](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image31.png)
 
 21. 将光标悬停在 **“Ware House”** 栏，请注意，有五个行包含此值。
 
-在 **“在 Power BI Desktop 中加载数据”** 实验室中，你将应用转换以重新标记这五行。
+    在 **“在 Power BI Desktop 中加载数据”** 实验室中，你将应用转换以重新标记这五行。
 
 22. 在 **“查询”** 窗格中，选择 **“DimSalesTerritory”** 查询。
 
@@ -280,7 +280,7 @@
 
 	![图片 63](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image34.png)
 
-	缺少 **“TotalProductCost”** 列值是数据质量问题。为解决该问题，在 **“在 Power BI Desktop 中加载数据”** 实验室中，你将通过使用产品标准成本（存储在相关的 **“DimProduct”** 表中）来应用转换以填充缺少的值。
+	缺少 **“TotalProductCost”** 列值是数据质量问题。为解决该问题，在“在 Power BI Desktop 中加载数据”实验室中，你将通过使用产品标准成本（存储在相关的 **“DimProduct”** 表中）来应用转换以填充缺少的值。
 
 ### **任务 5：从 CSV 文件获取数据**
 
@@ -317,9 +317,9 @@
 
 	![图片 74](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image38.png)
 
-	这些图标代表列数据类型。**“123”** 代表整数，**“ABC”** 代表文本。
+	这些图标代表列数据类型。 **“123”** 代表整数， **“ABC”** 代表文本。
 
-	你将应用许多转换以实现仅由三列组成的不同形状的结果： **“在 Power BI Desktop 中加载数据”** 实验室中的 **“Date”**、**“EmployeeKey”** 和 **“TargetAmount”**。
+	你将应用许多转换以实现仅由三列组成的不同形状的结果： **“在 Power BI Desktop 中加载数据”** 实验室中的 **“Date”**、 **“EmployeeKey”** 和 **“TargetAmount”**。
 
 ### **任务 6：从 CSV 文件中获取其他数据**
 
@@ -345,7 +345,7 @@
 
 	![图片 76](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image40.png)
 
-2. 要保存 Power BI Desktop 文件，请在 **“Power Query 编辑器”** 窗口的 **“文件”** backstage 视图中，选择 **“保存”**。
+2. 要保存 **Power BI Desktop** 文件，请在“Power Query 编辑器”窗口的 **“文件”** backstage 视图中，选择 **“保存”**。
 
 	![图片 77](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image41.png)
 

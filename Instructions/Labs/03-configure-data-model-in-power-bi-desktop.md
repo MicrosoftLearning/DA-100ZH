@@ -38,9 +38,9 @@
 
 9. 创建 Power BI 仪表板
 
-10. 在 Power BI Desktop 中执行数据分析
+10. 创建 Power BI 分页报表
 
-11. 创建 Power BI 分页报表
+11. 在 Power BI Desktop 中执行数据分析
 
 ## **练习 1：创建模型关系**
 
@@ -54,47 +54,47 @@
 
 1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
-	![图片 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
+    ![图片 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
-2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+1. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
-	![图片 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
+ 	![图片 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
 
-3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+1. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-4. 选择 **“打开报表”**。
+1. 选择 **“打开报表”**。
 
-	![图片 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
+ 	![图片 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
 
-5. 单击 **“浏览报表”**。
+1. 单击 **“浏览报表”**。
 
-	![图片 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
+ 	![图片 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter”文件夹**。
+1. 在“打开”窗口，导航到 **“D:\DA100\Labs\03-configure-data-model-in-power-bi-desktop\Starter”** 文件夹。
 
-7. 选择 **“Sales Analysis”** 文件。
+1. 选择 **“Sales Analysis”** 文件。
 
-8. 单击 **“打开”**。
+1. 单击 **“打开”**。
 
-	![图片 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
+ 	![图片 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
 
-9. 关闭可能打开的所有信息窗口。
+1. 关闭可能打开的所有信息窗口。
 
-10. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
+1. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-11. 选择 **“另存为”**。
+1. 选择 **“另存为”**。
 
-	![图片 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
+ 	![图片 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
 
-12. 如果系统提示应用更改，请单击 **“应用”**。
+1. 如果系统提示应用更改，请单击 **“应用”**。
 
-	![图片 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
+ 	![图片 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
-13. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+1. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-14. 单击 **“保存”**。
+1. 单击 **“保存”**。
 
-	![图片 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
+ 	![图片 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
 ### **任务 2：创建模型关系**
 
@@ -122,7 +122,7 @@
 
 	![图片 329](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image12.png)
 
-	*实验室将使用速记表示法来引用字段。如下所示： **Product | Category**。在此示例中，**“Product”** 是表名，**“Category”** 是字段名。*
+	*实验室将使用速记表示法来引用字段。如下所示： **Product | Category**。在此示例中， **“Product”** 是表名， **“Category”** 是字段名。*
 
 6. 若要在表中添加更多列，请在 **“字段”** 窗格中，选中 **“Sales | Sales”** 字段。
 
@@ -130,7 +130,7 @@
 
 	![图片 330](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image13.png)
 
-	*问题在于该表基于不同表中的字段。期望每个产品类别都显示该类别的销售额。但是，由于这些表之间没有模型关系，**“Sales”** 表未经过筛选。现在，你将添加一个关系以在表之间传播筛选。*
+	*问题在于该表基于不同表中的字段。期望每个产品类别都显示该类别的销售额。但是，由于这些表之间没有模型关系， **“Sales”** 表未经过筛选。现在，你将添加一个关系以在表之间传播筛选。*
 
 8. 在 **“建模”** 功能区选项卡上的 **“关系”** 组内，单击 **“管理关系”**。
 
@@ -160,7 +160,7 @@
 
 15. 在 **“交叉筛选方向”** 下拉列表中，可以看到 **“单向”** 处于选中状态。
 
-	*单一筛选方向表示筛选从 **“一侧”** 传播到 **“多侧”**。在本例中，这意味着应用于 **“Product”** 表的筛选将传播到 **“Sales”** 表，但传播方向不能反过来。在 **“在 Power BI Desktop 中对数据建模，第 2 部分”** 实验室中，你将处理双向关系。*
+	*单一筛选方向表示筛选从“一侧”传播到“多侧”。在本例中，这意味着应用于 **“Product”** 表的筛选将传播到 **“Sales”** 表，但传播方向不能反过来。在 **“在 Power BI Desktop 中对数据建模，第 2 部分”** 实验室中，你将处理双向关系。*
 
 16. 可以看到 **“将此关系标记为可用”** 处于选中状态。
 
@@ -204,7 +204,7 @@
 
 	- **Salesperson | EmployeeKey** 对 **Sales | EmployeeKey**
 
-	*在此实验室中，**“SalespersonRegion”** 和 **“Targets”** 表将保持未联接关系。销售员与区域之间存在多对多关系，在 **“在 Power BI Desktop 对数据建模，第 2 部分”** 实验室中，你将使用这种高级方案。*
+	*在此实验室中， **“SalespersonRegion”** 和 **“Targets”** 表将保持未联接关系。销售员与区域之间存在多对多关系，在 **“在 Power BI Desktop 对数据建模，第 2 部分”** 实验室中，你将使用这种高级方案。*
 
 25. 在该图中，排列表，以使 **“Sales”** 表位于图的中心，并围绕该表排列相关的表。将断开联接的表放在一边。
 
@@ -212,7 +212,7 @@
 
 26. 保存 Power BI Desktop 文件。
 
-## **练习 2：配置表**
+## **练习2：配置表**
 
 在本练习中，你将通过创建层次结构和隐藏、格式化列以及对其进行分类来配置每个表。
 
@@ -220,7 +220,7 @@
 
 在此任务中，你将配置 **“Product”** 表。
 
-1. 在 **“模型”** 视图中的 **“字段”** 窗格中，展开 **“Product”** 表以显示所有字段（如有必要）。
+1. 在“模型”视图中的 **“字段”** 窗格中，展开 **“Product”** 表以显示所有字段（如有必要）。
 
 2. 要创建层次结构，请在 **“字段”** 窗格中右键单击 **“Category”** 列，然后选择 **“创建层次结构”**。
 
@@ -250,7 +250,7 @@
 
 9. 若要将列组织到显示文件夹中，请先在 **“字段”** 窗格中选择 **“Background Color Format”** 列。
 
-10. 在按住 **Ctrl**  键的同时，选择 **“Font Color Format”** 列。
+10. 在按住 **Ctrl** 键的同时，选择 **“Font Color Format”** 列。
 
 11. 在 **“属性”** 窗格中的 **“显示文件夹”** 框内，输入 **“格式设置”**。
 
@@ -350,7 +350,7 @@
 
 1. 在 **“字段”** 窗格中，选择 **“Product | ProductKey”** 列。
 
-2. 在按下 **Ctrl** 键时，选择以下 13 个列（跨多个表）：
+2. 在按下 **_Ctrl** 键时，选择以下 13 个列（跨多个表）：
 
 	- Region | SalesTerritoryKey
 

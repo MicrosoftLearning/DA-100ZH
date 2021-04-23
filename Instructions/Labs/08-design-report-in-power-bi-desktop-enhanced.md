@@ -38,9 +38,9 @@
 
 9. 创建 Power BI 仪表板
 
-10. 在 Power BI Desktop 中执行数据分析
+10. 创建 Power BI 分页报表
 
-11. 创建 Power BI 分页报表
+11. 在 Power BI Desktop 中执行数据分析
 
 ## **练习 1：配置同步切片器**
 
@@ -54,31 +54,31 @@
 
 1. 要打开 Microsoft Edge，请在任务栏上单击 Microsoft Edge 程序快捷方式。
 
-	![图片 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
+ 	![图片 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-2. 在 Microsoft Edge 浏览器窗口中，导航到 **https://powerbi.com**
+1. 在 Microsoft Edge 浏览器窗口中，导航到 **https://powerbi.com**
 
-	*提示：还可以使用“Microsoft Edge 收藏夹”栏上的 Power BI 服务收藏夹。*
+ 	*提示：还可以使用“Microsoft Edge 收藏夹”栏上的 Power BI 服务收藏夹。*
 
-3. 单击 **“登录”** （位于右上角）。
+1. 单击 **“登录”** （位于右上角）。
 
-	![图片 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
+ 	![图片 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
 
-4. 输入已向你提供的帐户详细信息。
+1. 输入已向你提供的帐户详细信息。
 
-5. 如果系统提示更新密码，请重新输入提供的密码，然后输入并确认新密码。
+1. 如果系统提示更新密码，请重新输入提供的密码，然后输入并确认新密码。
 
-	*重要说明：请确保记录新密码。*
+ 	*重要说明：请确保记录新密码。*
 
-6. 完成登录过程。
+1. 完成登录过程。
 
-7. 如果 Microsoft Edge 提示你选择是否保持登录状态，请单击 **“是”**。
+1. 如果 Microsoft Edge 提示你选择是否保持登录状态，请单击 **“是”**。
 
-8. 在 Microsoft Edge 浏览器窗口，在 Power BI 服务的 **“导航”** 窗格中展开 **“我的工作区”**。
+1. 在 Microsoft Edge 浏览器窗口，在 Power BI 服务的 **“导航”** 窗格中展开 **“我的工作区”**。
 
-	![图片 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
+ 	![图片 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
-9. 让 Microsoft Edge 浏览器窗口保持打开状态。
+1. 让 Microsoft Edge 浏览器窗口保持打开状态。
 
 ### 任务 2：开始 - 打开报表
 
@@ -110,7 +110,7 @@
 
 	![图片 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\design-report-in-power-bi-desktop-enhanced\Starter”** 文件夹。
+8. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter”** 文件夹。
 
 9. 选择 **“Sales Analysis”** 文件。
 
@@ -160,7 +160,7 @@
 
 6. 在 **“概述”** 页面中，选择 **“区域”** 切片器。
 
-7. 将该切片器与 **“概述”** 和 **“利润”** 页面同步。
+7. 将该切片器同步至 **“概述”** 及 **“利润”** 页面。
 
 	![图片 94](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image15.png)
 
@@ -170,7 +170,7 @@
 
 	![图片 98](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image16.png)
 
-## **练习 2：配置钻取**
+## **练习2：配置钻取**
 
 在此练习中，你将创建一个新页面并将其配置为钻取页面。完成设计后，该页面将如下所示：
 
@@ -192,7 +192,7 @@
 
 3. 在 **“可视化效果”** 窗格下的 **“钻取”** 部分中，将 **“Product | Category”** 字段添加到 **“在此处添加钻取字段”** 框。
 
-	*实验室将使用速记表示法来引用字段。如下所示： **Product | Category**。在此示例中， **“Product”** 是表名，**“Category”** 是字段名。*
+	*实验室将使用速记表示法来引用字段。如下所示： **Product | Category**。在此示例中， **“Product”** 是表名， **“Category”** 是字段名。*
 
 	![图片 96](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image20.png)
 
@@ -204,7 +204,7 @@
 
 	![图片 100](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image22.png)
 
-	*将字段添加到钻取井时，系统会自动添加一个按钮。通过该按钮，报表用户可以导航回在其中进行钻取的页面。*
+	*将字段添加到钻取井/区域时，系统会自动添加一个按钮。通过该按钮，报表用户可以导航回在其中进行钻取的页面。*
 
 6. 向页面添加 **“卡片”** 视觉对象，然后调整其大小和位置，使其位于按钮右侧，并填充剩余的页面宽度。
 
@@ -254,7 +254,7 @@
 
 1. 选择表视觉对象。
 
-2. 在视觉对象字段窗格中，对于 **“Profit Margin”** 字段，单击向下箭头，然后选择 **“条件格式 | 图标”**。
+2. 在“可视化”窗格中，单击 **“Profit Margin”** 值上的向下箭头，然后选择 **“条件格式 | 图标”**。
 
 	![图片 107](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image29.png)
 
@@ -312,7 +312,7 @@
 
 	![图片 115](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image37.png)
 
-13. 重复前面的步骤， 使用 **“Product | Formatting | Font Color Format”** 字段，为 **“颜色”** 字段配置字体颜色条件格式
+13. 重复前面的步骤，使用 **“Product | Formatting | Font Color Format”** 字段，为 **“颜色”** 字段配置字体颜色条件格式
 
 	*回想一下，背景和字体颜色源自 **“在 Power BI Desktop 中准备数据”** 实验室中的 **“ColorFormats.csv”** 文件，然后与 **“在 Power BI Desktop 中加载数据”** 实验室中的 **“产品”** 查询集成。*
 
@@ -348,7 +348,7 @@
 
 7. 如果可见图表是条形图，请将书签重命名为 **“条形图打开”**，否则将书签重命名为 **“柱形图打开”**。
 
-8. 要编辑书签，请在“书签”窗格中，将光标悬停在书签上方，单击省略号，然后选择 **“数据”**。
+8. 要编辑书签，请在 **“书签”** 窗格中，将光标悬停在书签上方，单击省略号，然后选择 **“数据”**。
 
 	![图片 16](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image43.png)
 
@@ -428,9 +428,9 @@
 
 1. 选择 **“概述”** 页面。
 
-2. 在 **“年份”** 切片器中，选择 **“2020 财年”**。
+2. 在 **“Year”** 切片器中，选择 **“FY2020”**。
 
-3. 在 **“区域”** 切片器中，选择 **“全选”**。
+3. 在 **“Region”** 切片器中，选择 **“全选”**。
 
 4. 保存 Power BI Desktop 文件。
 
@@ -464,7 +464,7 @@
 
 在此任务中，你将在 Power BI 服务中浏览报表。
 
-1. 在 Microsoft Edge 浏览器窗口，在 Power BI 服务的 **“导航”** 窗格中，单击 **“销售额分析”报表**。
+1. 在 Microsoft Edge 浏览器窗口，在 Power BI 服务的 **“导航”** 窗格中，单击 **“销售额分析”** 报表。
 
 2. 要测试钻取报表，请在 **“概述”** 页面的 **“各类别的数量”** 视觉对象中，右键单击 **“服装”** 栏，然后选择 **“钻取 | 产品详细信息”**。
 

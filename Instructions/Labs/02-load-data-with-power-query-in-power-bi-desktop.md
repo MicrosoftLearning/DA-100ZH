@@ -34,9 +34,9 @@
 
 9. 创建 Power BI 仪表板
 
-10. 在 Power BI Desktop 中执行数据分析
+10. 创建 Power BI 分页报表
 
-11. 创建 Power BI 分页报表
+11. 在 Power BI Desktop 中执行数据分析
 
 ## **练习 1：加载数据**
 
@@ -50,57 +50,57 @@
 
 1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
-	![图片 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+    ![图片 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+1. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
-	![图片 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
+    ![图片 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
 
-3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+1. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-4. 选择 **“打开报表”**。
+1. 选择 **“打开报表”**。
 
 	![图片 10](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image3.png)
 
-5. 单击 **“浏览报表”**。
+1. 单击 **“浏览报表”**。
 
-	![图片 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
+    ![图片 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter”文件夹**。
+1. 在“打开”窗口，导航到 **“D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter”** 文件夹。
 
-7. 选择 **“Sales Analysis”** 文件。
+1. 选择 **“Sales Analysis”** 文件。
 
-8. 单击 **“打开”**。
+1. 单击 **“打开”**。
 
 	![图片 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
-9. 关闭可能打开的所有信息窗口。
+1. 关闭可能打开的所有信息窗口。
 
-10. 请注意功能区下方的黄色警告消息。
+1. 请注意功能区下方的黄色警告消息。
 
 	*该消息会提醒你尚未应用查询来加载为模型表。你稍后将在本实验室中应用查询。*
 
-11. 要关闭警告消息，请在黄色警告消息的左侧单击 **“X”**。
+1. 要关闭警告消息，请在黄色警告消息的左侧单击 **“X”**。
 
 	![图片 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
 
-12. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
+1. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 backstage 视图。
 
-13. 选择 **“另存为”**。
+1. 选择 **“另存为”**。
 
-	![图片 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
+    ![图片 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
 
-14. 如果提示应用更改，请单击 **“稍后应用”**。
+1. 如果提示应用更改，请单击 **“稍后应用”**。
 
-	![图片 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+    ![图片 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-15. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+1. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-16. 单击 **“保存”**。
+1. 单击 **“保存”**。
 
-	![图片 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
+    ![图片 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
 
-17. 若要打开 **“Power Query 编辑器”** 窗口，请在 **“主页”** 功能区选项卡上的 **“查询”** 组内，单击 **“转换数据”** 图标。
+1. 若要打开 **“Power Query 编辑器”** 窗口，请在“主页”功能区选项卡上的 **“查询”** 组内，单击 **“转换数据”** 图标。
 
 	![图片 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
@@ -128,7 +128,7 @@
 
 	*提示：当查询包含许多列时，此方法很有用。如果列数不多，只需水平滚动即可找到感兴趣的列。*
 
-5. 在 **“转到列”** 窗口中，要按列名对列表进行排序，请单击 **AZ**  排序按钮，然后选择 **“名称”**。
+5. 在 **“转到列”** 窗口中，要按列名对列表进行排序，请单击 **AZ** 排序按钮，然后选择 **“名称”**。
 
 	![图片 94](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image14.png)
 
@@ -276,13 +276,13 @@
 
 	![图片 5646](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image32.png)
 
-	*通过选择这两列，将应用转换以联接到 **“DimProductSubcategory”** 表，然后包含这些列。**“DimProductCategory”** 列实际上是数据源中的另一个相关表。*
+	*通过选择这两列，将应用转换以联接到 **“DimProductSubcategory”** 表，然后包含这些列。 **“DimProductCategory”** 列实际上是数据源中的另一个相关表。*
 
 9. 取消选中 **“使用原始列名作为前缀”** 复选框。
 
 	![图片 5647](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image33.png)
 
-	*查询列名必须始终是唯一的。选中后，此复选框将为每个列添加扩展列名作为前缀（在本例中为 **“DimProductSubcategory”** ）。因为已知所选列名不会与 **“Product”** 查询中的列名冲突，可以取消选择此选项。*
+	*查询列名必须始终是唯一的。选中后，此复选框将为每个列添加扩展列名作为前缀（在本例中为 **“DimProductSubcategory”**）。因为已知所选列名不会与 **“Product”** 查询中的列名冲突，可以取消选择此选项。*
 
 10. 单击 **“确定”**。
 
@@ -369,7 +369,7 @@
 
 	- 将 **“EnglishCountryRegionName”** 重命名为 **“Country-Region”**
 
-10. 在状态栏中，验证查询是否具有 6 列和 701 行。
+10. 在状态栏中，确认查询具有 6 列和 701 行。
 
 	![图片 5657](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image42.png)
 
@@ -457,7 +457,7 @@
 
 7. 在 **“自定义列公式”** 框中，输入以下表达式（等号后面的文本）：
 
-8. 为了方便使用，你可以从 **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt 文件中复制表达式**。
+8. 为了方便使用，你可以从 **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 文件中复制表达式。
 
 
    **Power Query**
@@ -466,7 +466,7 @@
    ```
 
 
-	*此表达式用于测试 **“TotalProductCost”** 值是否缺失。如果缺失，则通过将 **“OrderQuantity”** 值乘以 **“StandardCost”** 值来生成一个值；否则，它使用现有的 **“TotalProductCost”** 值。*
+*此表达式用于测试 **“TotalProductCost”** 值是否缺失。如果缺失，则通过将 **“OrderQuantity”** 值乘以 **“StandardCost”** 值来生成一个值；否则，它使用现有的 **“TotalProductCost”** 值。*
 
 9. 单击 **“确定”**。
 
@@ -520,7 +520,7 @@
 
 2. 将查询重命名为 **“Targets”**。
 
-3. 若要逆透视 12 个月的列 ( **“M01”** - **“M12”**)，请先多重选择 **“Year”** 和 **“EmployeeID”** 列标题。
+3. 若要逆透视 12 个月的列 (**“M01”**- **“M12”**)，请先多重选择 **“Year”** 和 **“EmployeeID”** 列标题。
 
 	![图片 5673](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image54.png)
 
@@ -656,7 +656,7 @@
 
 5. 在 **“ColorFormats”** 查询网格中，选择 **“Color”** 列标题。
 
-6. 当 **“私有级别”**  窗口打开时，对于两个数据源中的每一个，在相应的下拉列表中，选择 **“组织”**。
+6. 当 **“私有级别”** 窗口打开时，对于两个数据源中的每一个，在相应的下拉列表中，选择 **“组织”**。
 
 	![图片 5691](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image74.png)
 

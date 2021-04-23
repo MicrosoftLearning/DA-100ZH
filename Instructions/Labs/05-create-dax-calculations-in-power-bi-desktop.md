@@ -36,9 +36,9 @@
 
 9. 创建 Power BI 仪表板
 
-10. 在 Power BI Desktop 中执行数据分析
+10. 创建 Power BI 分页报表
 
-11. 创建 Power BI 分页报表
+11. 在 Power BI Desktop 中执行数据分析
 
 ## **练习 1：创建计算表**
 
@@ -52,45 +52,45 @@
 
 1. 要打开 Power BI Desktop，请在任务栏上单击 Microsoft Power BI Desktop 快捷方式。
 
-	![图片 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
+ 	![图片 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
 
-2. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
+1. 要关闭开始窗口，请单击窗口左上角的 **“X”**。
 
-	![图片 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
+ 	![图片 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-3. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+1. 要打开入门 Power BI Desktop 文件，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-4. 选择 **“打开报表”**。
+1. 选择 **“打开报表”**。
 
-	![图片 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
+ 	![图片 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
 
-5. 单击 **“浏览报表”**。
+1. 单击 **“浏览报表”**。
 
-	![图片 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
+ 	![图片 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-6. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Starter”** 文件夹。
+1. 在 **“打开”** 窗口，导航到 **“D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter”** 文件夹*。
 
-7. 选择 **“Sales Analysis”** 文件。
+1. 选择 **“Sales Analysis”** 文件。
 
-8. 单击 **“打开”**。
+1. 单击 **“打开”**。
 
-	![图片 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
+ 	![图片 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
 
-9. 关闭可能打开的所有信息窗口。
+1. 关闭可能打开的所有信息窗口。
 
-10. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
+1. 要创建该文件的副本，请单击 **“文件”** 功能区选项卡以打开 Backstage 视图。
 
-11. 选择 **“另存为”**。
+1. 选择 **“另存为”**。
 
-	![图片 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
+ 	![图片 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
 
-12. 如果系统提示应用更改，请单击 **“应用”**。
+1. 如果系统提示应用更改，请单击 **“应用”**。
 
-	![图片 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
+ 	![图片 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-13. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
+1. 在 **“另存为”** 窗口中，导航到 **“D:\DA100\MySolution”** 文件夹。
 
-14. 单击 **“保存”**。
+1. 单击 **“保存”**。
 
 	![图片 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image8.png)
 
@@ -106,7 +106,7 @@
 
 	![图片 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*为了方便起见，可以从 **D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 文件复制本实验室中的所有 DAX 定义。*
+	*为了方便起见，可以从 **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 文件复制本实验室中的所有 DAX 定义。*
 
 	*创建计算表的方法是：先输入表名，后面依次输入等号 (=) 和返回表的 DAX 公式。请注意，表名不能是数据模型中已有的名称。*
 
@@ -244,11 +244,11 @@
 
 	![图片 51](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
-8. 在 **“字段”** 窗格中，从 **“Date”** 表内，将 **“Year”** 字段拖入 **“行”** 井中。
+8. 在 **“字段”** 窗格中，从 **“Date”** 表内，将 **“Year”** 字段拖入 **“行”** 井/区域中。
 
 	![图片 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
 
-9. 将 **“Month”** 字段拖入 **“Year”** 字段正下方的 **“行”** 井。
+9. 将 **“Month”** 字段拖入 **“Year”** 字段正下方的 **“行”** 井/区域。
 
 	![图片 18](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image25.png)
 
@@ -314,9 +314,9 @@
 
 4. 创建以下两个模型关系：
 
-	- **Date | “Date”** 到 **“Sales” | OrderDate**
+	- **“Date | Date”** 到 **“Sales | OrderDate”**
 
-	- **Date | “Date”** 到 **“Targets | TargetMonth**
+	- **“Date | Date”** 到 **“Targets | TargetMonth”**
 
 5. 隐藏以下两列：
 
@@ -350,7 +350,7 @@
 
 	*请注意，当数据源中没有日期表时，这种用于日期表的设计方法是合适的。如果你有数据仓库，则应该从其日期维度表（而不是数据模型中的“重新定义”日期逻辑）中加载日期数据。*
 
-## **练习 2：创建度量**
+## **练习2：创建度量**
 
 在此练习中，你将创建几个度量值并对其进行格式设置。
 
@@ -358,15 +358,15 @@
 
 在此任务中，你将创建简单的度量值。简单的度量值聚合单个列中的值或对表中的行进行计数。
 
-1. 在“报表”视图的**第 2 页**的 **“字段”** 窗格中，将 **“Sales | Unit Price”** 字段拖动到矩阵视觉对象内。
+1. 在 **“报表”** 视图的第 **2 页**的 **“字段”** 窗格中，将 **“Sales | Unit Price”** 字段拖动到矩阵视觉对象内。
 
-	*实验室将使用速记表示法来引用字段。如下所示： **Sales | Unit Price**.在此示例中， **“Sales”** 是表名，**“Unit Price”** 是字段名。*
+	*实验室将使用速记表示法来引用字段。如下所示： **Sales | Unit Price**.在此示例中， **“Sales”** 是表名， **“Unit Price”** 是字段名。*
 
 	![图片 27](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image35.png)
 
 	*回想一下，在 **“在 Power BI Desktop 中对数据建模，第 2 部分”** 实验室中，你将 **“Unit Price”** 列设置为按 **“平均值”** 汇总。矩阵视觉对象中显示的结果是每月平均单价（单价值的总和除以单价计数）。*
 
-2. 在视觉对象“字段”窗格（位于 **“可视化效果”** 窗格之下）的 **“值”** 井，注意 **“Unit Price”** 已列出。
+2. 在视觉对象“字段”窗格（位于 **“可视化效果”** 窗格之下）的 **“值”** 字段井/区域，注意 **“Unit Price”** 已列出。
 
 	![图片 28](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image36.png)
 
@@ -374,7 +374,7 @@
 
 	![图片 30](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image37.png)
 
-	*借助可见的数值列，报表作者可以在设计报表时确定汇总（或不汇总）列值的时间。这可能会生成不当的报表。但是某些数据建模人员不喜欢碰运气，他们选择隐藏这些列，而不是公开度量值中定义的聚合逻辑。这就是你将在本实验室中采用的方法。*
+	*借助可见的数值列，报表作者可以在设计报表时确定汇总（或不汇总）列值的方式。这可能会生成不当的报表。但是某些数据建模人员不喜欢碰运气，他们选择隐藏这些列，而不是公开度量值中定义的聚合逻辑。这就是你将在本实验室中采用的方法。*
 
 4. 要创建度量值，请在 **“字段”** 窗格中，右键单击 **“Sales”** 表，然后选择 **“新建度量值”**。
 
@@ -414,7 +414,7 @@
 
 	- Order Lines
 
-	***“Orders”** 度量值中使用的 DISTINCTCOUNT() 函数只会对订单进行一次计数（忽略重复项）。用于 **订单行** 度量值的 COUNTROWS() 函数对表进行操作。*
+	***“Orders”** 度量值中使用的 DISTINCTCOUNT() 函数只会对订单进行一次计数（忽略重复项）。用于**订单行**度量值的 COUNTROWS() 函数对表进行操作。*
 
 	*在这种情况下，订单数量是通过对 **“SalesOrderNumber”** 列的不同值进行计数得出的，而订单行数其实就是表行数（每行为一个订单行）。*
 
@@ -440,7 +440,7 @@
 
 	![图片 36](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41.png)
 
-14. 在“报表”视图中，在矩阵视觉对象的 **“值”** 井中，对于 **“Unit Price”** 字段，单击 **“X”** 将其删除。
+14. 在“报表”视图中，在矩阵视觉对象的 **“值”** 井/区域中，对于 **“Unit Price”** 字段，单击 **“X”** 将其删除。
 
 	![图片 38](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image42.png)
 
@@ -480,7 +480,7 @@
 
 	![图片 42](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image46.png)
 
-4. 将 **“Targets” | “Target”** 列重命名为 **“Targets | TargetAmount”**。
+4. 将 **“Targets | Target”** 列重命名为 **“Targets | TargetAmount”**。
 
 	*提示：可以通过几种方法在“报表”视图中重命名该列：在 **“字段”** 窗格中，可以右键单击该列，然后选择 **“重命名”** - 或者双击该列，或按 **F2**。*
 
