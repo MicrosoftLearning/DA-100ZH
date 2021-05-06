@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '创建 Power BI 分页报表'
     module: '模块 9: 在 Power BI 中创建分页报表'
