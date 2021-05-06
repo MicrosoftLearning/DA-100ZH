@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '在 Power BI Desktop 中准备数据'
     module: '模块 2: 在 Power BI 中准备数据'
