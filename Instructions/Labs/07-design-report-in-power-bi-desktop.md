@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: '在 Power BI Desktop 中设计报表，第 1 部分'
+    module: '模块 7: 创建报表'
+---
 
 # **在 Power BI Desktop 中设计报表，第 1 部分**
 

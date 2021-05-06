@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: '在 Power BI Desktop 中创建 DAX 计算，第 1 部分'
+    module: '模块 5: 在 Power BI 中使用 DAX 创建模型计算'
+---
 
 # **在 Power BI Desktop 中创建 DAX 计算，第 1 部分**
 

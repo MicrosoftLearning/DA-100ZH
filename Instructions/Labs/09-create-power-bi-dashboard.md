@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: '创建 Power BI 仪表板'
+    module: '模块 8: 创建仪表板'
+---
 
 # **创建 Power BI 仪表板**
 

@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: '在 Power BI Desktop 中执行数据分析'
+    module: '模块 10: 执行高级分析'
+---
 
 # **在 Power BI Desktop 中执行数据分析**
 

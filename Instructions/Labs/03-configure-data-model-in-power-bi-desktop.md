@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: '在 Power BI Desktop 中对数据建模，第 1 部分'
+    module: '模块 4: 在 Power BI 中设计数据模型'
+---
 
 # **在 Power BI Desktop 中对数据建模，第 1 部分**
 
