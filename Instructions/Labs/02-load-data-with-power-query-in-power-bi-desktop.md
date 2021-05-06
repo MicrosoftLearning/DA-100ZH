@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: '在 Power BI Desktop 中加载数据'
     module: '模块 3: 在 Power BI 中清理、转换和加载数据'
